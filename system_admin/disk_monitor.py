@@ -3,7 +3,7 @@ disk_monitor.py
 Monitors disk usage across all drives and alerts if any drive exceeds threshold.
 
 Usage:
-    python system_admin/disk_monitor.py
+    python system_admin/disk_monitor.py --summary
 """
 
 import shutil
@@ -18,10 +18,15 @@ if str(repo_root) not in sys.path:
 
 from utils.logger import setup_logger
 
-
-# Configuration
-ALERT_THRESHOLD = 80  # Alert if disk usage exceeds this percentage
-LOG_FILE = "disk_monitor.log"
+# Import configuration
+try:
+    from utils.config import DISK_ALERT_THRESHOLD, DISK_LOG_FILE
+    ALERT_THRESHOLD = DISK_ALERT_THRESHOLD
+    LOG_FILE = DISK_LOG_FILE
+except ImportError:
+    # Fallback if config not available
+    ALERT_THRESHOLD = 80
+    LOG_FILE = "disk_monitor.log"
 
 
 def get_disk_usage(path):
