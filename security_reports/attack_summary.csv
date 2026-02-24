@@ -1,0 +1,4 @@
+ip_address,failed_attempts,unique_users,risk_level
+192.168.1.100,13,3,CRITICAL
+10.0.0.50,3,1,MEDIUM
+203.0.113.50,2,1,LOW
