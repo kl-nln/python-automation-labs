@@ -62,3 +62,7 @@ ec2_inventory.log
 s3_audit.log
 iam_analyzer.log
 cost_monitor.log
+
+# Config override
+utils/config_local.py
+
