@@ -1,3 +1,20 @@
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Security-orange?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Tools](https://img.shields.io/badge/Tools-18-red?style=for-the-badge)
+
+**18 Production-Ready Security Automation Tools**
+
+*Cloud Security | Network Scanning | Threat Detection | System Monitoring*
+
+[🔗 Live Demo](#) • [📚 Documentation](#current-scripts) • [🚀 Quick Start](#setup-instructions)
+
+</div>
+
+---
+
 # Python Automation Labs
 
 A portfolio of practical Python automation scripts for system administration, cybersecurity, networking, and cloud operations.
