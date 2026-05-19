@@ -947,11 +947,3 @@ This repository is being built as part of a structured learning path covering:
 - CompTIA Security+ study materials
 
 ---
-
-## 📄 License
-
-This project is for educational and portfolio purposes.
-
----
-
-**Note:** Generated files (`*.log`, `scan_report.txt`, `integrity_baseline.json`, `security_reports/`, `network_reports/`, `cloud_automation_reports/`) are excluded from version control via `.gitignore`.
