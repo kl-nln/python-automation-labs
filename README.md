@@ -878,7 +878,7 @@ This repository was built as part of a structured five-week learning path:
   Live Active Directory security auditing with automated PDF and HTML report generation
 - [Wazuh EDR Homelab](https://github.com/kl-nln/wazuh-edr-homelab)
   Open source EDR deployed across a multi-OS environment with brute force simulation and MITRE ATT&CK mapping
-- [Splunk SIEM Lab](https://github.com/kl-nln/splunk-lab)
+- [Splunk SIEM Lab](https://github.com/kl-nln/splunk-siem-lab)
   SIEM environment with SPL queries built to detect authentication threats and anomalous behavior
 - [Wireshark Network Traffic Analysis Lab](https://github.com/kl-nln/wireshark-lab)
   Packet analysis and network forensics lab documenting real threat traffic
